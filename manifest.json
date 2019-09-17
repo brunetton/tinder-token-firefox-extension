@@ -1,7 +1,7 @@
 {
-    "description": "Démonstration du module webRequests",
+    "description": "Copy Facebook OAuth access token to clipboard",
     "manifest_version": 2,
-    "name": "webRequest-demo",
+    "name": "tinder-token-firefox-extension",
     "version": "1.0",
 
     "permissions": [
