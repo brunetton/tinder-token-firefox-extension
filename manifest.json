@@ -6,7 +6,9 @@
 
     "permissions": [
       "webRequest",
-      "https://www.facebook.com/v2.10/dialog/oauth/confirm/"
+      "webRequestBlocking",
+      "https://www.facebook.com/v2.10/dialog/oauth/confirm/",
+      "clipboardWrite"
     ],
 
     "background": {
