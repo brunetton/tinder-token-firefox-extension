@@ -8,10 +8,22 @@
       "webRequest",
       "webRequestBlocking",
       "https://www.facebook.com/v2.10/dialog/oauth/confirm/",
-      "clipboardWrite"
+      "clipboardWrite",
+      "storage"
     ],
 
     "background": {
       "scripts": ["background.js"]
+    },
+
+    "options_ui": {
+      "page": "options.html"
+    },
+
+    "applications": {
+      "gecko": {
+        "id": "tinder-token-extension@brunetton.com"
+      }
     }
+
   }
