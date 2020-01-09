@@ -2,12 +2,12 @@
     "description": "Copy Facebook OAuth access token to clipboard",
     "manifest_version": 2,
     "name": "tinder-token-extension",
-    "version": "1.1",
+    "version": "1.2",
 
     "permissions": [
       "webRequest",
       "webRequestBlocking",
-      "https://www.facebook.com/v2.10/dialog/oauth/confirm/",
+      "https://*.facebook.com/v2*/dialog/oauth/confirm/",
       "clipboardWrite",
       "storage"
     ],

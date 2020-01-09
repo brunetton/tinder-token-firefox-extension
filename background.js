@@ -47,7 +47,7 @@ function listener(details) {
 browser.webRequest.onBeforeRequest.addListener(
   listener,
   {
-    urls: ["https://www.facebook.com/*/dialog/oauth/confirm/"],
+    urls: ["https://*.facebook.com/*/dialog/oauth/confirm/"],
   },
   ["blocking"]
 )
