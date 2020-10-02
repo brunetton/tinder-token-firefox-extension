@@ -51,3 +51,9 @@ browser.webRequest.onBeforeRequest.addListener(
   },
   ["blocking"]
 )
+
+// Update customUrl if extension settings updated
+browser.storage.onChanged.addListener((changeData) => {
+  console.log(`updated -> ${changeData.custom_url.newValue}`)
+  customUrl = changeData.custom_url.newValue
+})
